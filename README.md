@@ -1,5 +1,9 @@
-<<<<<<< HEAD
+
 # banjo
-=======
-# banjo
->>>>>>> ff807f90251e289a43410f0541d1ad63dbd658d5
+
+
+# twitter-listener
+
+The twitter listener is created inheriting tweepy.streaming.SteamListener 
+and set of sentiment keywords. The listener filters tweets based on the
+keywords and sends it to the message broker queue using the sender. 

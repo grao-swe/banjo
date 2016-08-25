@@ -1,4 +1,3 @@
-import tweepy
 import json
 
 from message_broker_send import Sender
